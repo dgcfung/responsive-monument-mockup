@@ -4,7 +4,4 @@
 
 [Go to part 2!](pt-2/)  
 
-BONUS!!!! --- [Go to part 3!](pt-3/)  
-
-
-### Homework is due Thursday May 2nd at 11PM 
+[Go to part 3!](pt-3/)  
