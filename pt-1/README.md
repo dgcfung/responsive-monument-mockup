@@ -18,7 +18,7 @@ Your work must:
 - Show images using `img` tags, including unique alt attributes.
 - Use an external CSS stylesheet to style your pages.
 - Include a properly structured HTML file with a head and body.
-- Use HTML5 structural elements (nav, header, footer).
+- Use semantic HTML5 element tags (nav, header, footer).
 - Follow naming conventions, maintaining consistency across your `.html` and `.css` files.
 - Indent nested elements to increase your code's readability.
 - Use IDs, classes, and nested selectors to select and style elements on the page.
