@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*This applies from 0px to 600px --> MOBILE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background: darksalmon;
+	font-family: 'Roboto', sans-serif;
+	color: #141414;
+}
+
+.container {
+  display: flex;
+}
+
+header {
+  background: white;
+  height: 15%;
+}
+
+section {
+  background: goldenrod;
+  height: 60%;
+}
+
+aside {
+  background: #81cfe0;
+  height: 60%;
+}
+
+footer {
+  background: maroon;
+  height: 25%;
+}
+
+/* This applies from 600px onwards --> DESKTOP */
+@media (min-width: 600px) {
+  	html,
+    body {
+      background: yellow;
+    }
+  
+  section,
+  aside {
+    display: inline-block;
+    float: left;
+    height: 60%;
+  }
+  
+  section {
+    width: 75%;
+  }
+  
+  aside {
+    width: 25%;
+  }
+  
+  footer {
+    clear: both;
+  }
+}
+
