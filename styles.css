@@ -4,6 +4,7 @@
 * {
   margin: 0;
   padding: 0;
+  /* background-color: white; */
   box-sizing: border-box;
 }
 
@@ -13,9 +14,16 @@ body {
 }
 
 body {
-	background: darksalmon;
+	background-color: white;
 	font-family: 'Roboto', sans-serif;
-	color: #141414;
+    color: #141414;
+    text-align: center;
+    font-size: 10px;
+    
+}
+
+.blog-head{
+    text-align: left;
 }
 
 .container {
@@ -23,30 +31,109 @@ body {
 }
 
 header {
-  background: white;
+    background-image: url('./pt-1/starter-code/images/blog_header_bg.jpg');
+  /* background: white; */
   height: 15%;
+  color: white;
+  text-align: center;
+  font-style: Arial, Helvetica;
+  font-size: 30px;
+  
 }
 
+li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.blog-post{
+    text-align: left;
+    font-style: Arial, Helvetica;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 section {
-  background: goldenrod;
+  background: white;
   height: 60%;
 }
 
 aside {
-  background: #81cfe0;
+  background-color: white;
   height: 60%;
+  
+}
+
+.about{
+    text-align: left;
+    font-style: Arial, Helvetica;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    align-items: center;
+    font-size: 15px
+
+}
+
+.tempDiv{
+    text-align: left;
+    font-style: Arial, Helvetica;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18 px
+}
+
+.list{
+    text-align: left;
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+
+} 
+
+.temp{
+    text-align: left;
+}
+
+.about-us{
+    background-color: white;
+    text-align: wrap;
+}
+
+img{
+    max-width: 800px;
+    max-height: 550px;
+    text-align: center;
+    /* display: inline-block; */
+}
+
+p{
+    font-size
 }
 
 footer {
-  background: maroon;
+  /* background: maroon; */
+  background-color: teal;
+  color: white;
   height: 25%;
+  text-align: center;
+
 }
+
+/* apply width to image */
 
 /* This applies from 600px onwards --> DESKTOP */
 @media (min-width: 600px) {
   	html,
     body {
-      background: yellow;
+      background: white;
     }
   
   section,
