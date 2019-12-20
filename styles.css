@@ -10,7 +10,7 @@
 
 html,
 body {
-	height: 100%;
+    height: 100%;
 }
 
 body {
@@ -33,12 +33,12 @@ body {
 header {
     background-image: url('./pt-1/starter-code/images/blog_header_bg.jpg');
   /* background: white; */
-  height: 15%;
+  height: 20%;
   color: white;
   text-align: center;
   font-style: Arial, Helvetica;
   font-size: 30px;
-  
+  background-size: cover;
 }
 
 li {
@@ -63,9 +63,14 @@ section {
   height: 60%;
 }
 
-aside {
+.aside {
   background-color: white;
   height: 60%;
+  /* flex-direction: right;
+   */
+/* float: right; */
+    display: flex;
+    flex-direction: right;
   
 }
 
@@ -75,8 +80,10 @@ aside {
     /* display: flex;
     flex-direction: column;
     justify-content: center; */
-    align-items: center;
-    font-size: 15px
+    /* align-items: center;
+    font-size: 15px */
+    /* float: left; */
+
 
 }
 
