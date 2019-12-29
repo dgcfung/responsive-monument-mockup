@@ -40,6 +40,7 @@ header{
   background-size: cover;
   height: 50%;
   width: 100%;
+  margin: auto;
 }
 
 nav{
@@ -67,7 +68,7 @@ nav a{
   margin:auto;
   margin-top: 250px;
   width: 500px;
-  /* text-align: center; */
+  text-align: center;
   /* margin-left: 10px; */
   /* width 65% */
   
@@ -75,23 +76,42 @@ nav a{
 
 h3{
   font-size: 15px;
+  display: inline-block;
 }
 
 h2{
   font-size: 18px;
   letter-spacing: 1px;
+  display: inline-block;
+}
+
+img{
+  margin: auto;
+  max-width: 500px;
+  max-height: 350px;
+  text-align: left;
+  /* display: flex;
+  justify-content: flex-start; */
+  display: inline-block;
 }
 
 aside{
   margin: auto;
+  font-size: 22px;
+  margin-left: 50px;
   margin-top: 250px;
-  width: 300px;
-  text-align: center ;
+  width: 350px;
+  text-align: left;
   flex-direction: column;
   font-size: medium;
+  display: inline-block;
   /* margin-right: 10px; */
   /* width: 30%; */
   
+}
+
+aside img{
+  margin:auto;
 }
 
 html {
@@ -108,15 +128,7 @@ body {
     
 }
 
-img{
-  /* margin: 5px; */
-  max-width: 600px;
-  max-height: 450px;
-  text-align: left;
-  display: flex;
-  justify-content: flex-start;
-  /* display: inline-block; */
-}
+
 
 
 .blog-post{
@@ -228,7 +240,7 @@ section {
 /* } */
 
 p{
-    font-size:;
+    display: inline-block;
 
 }
 
@@ -281,6 +293,11 @@ footer {
   display: flex;
   justify-content: space-evenly;
   /* position: absolute; */
+}
+
+hr{
+  color: white;
+  border-style: inset;
 }
 
 
